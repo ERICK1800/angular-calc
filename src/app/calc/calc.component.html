@@ -1,0 +1,8 @@
+<div>
+    <form>
+        <input type="number" name="num1" [(ngModel)]="num1">
+        <input type="number" name="num2"[(ngModel)]="num2">
+        <button name="somar" (click)="somar()">Somar</button>
+        <input type="number" readonly [value]="soma">
+    </form>
+</div>
